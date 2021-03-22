@@ -13,18 +13,22 @@
 
 <body>
     <header>
-        <div id="header">
-            <div class="nav-gauche">
-                <ahref="#"><img id="logo" src="style/assets/popLogo.png" alt="logoPOP"></a>
-            </div>
-            <div class="nav-droite">
-                <div class="dropdown">
-                    <img class="btn_catégorie" id="photoProfil"src="style/assets/tenjiro1.jpg" alt="image profil">
-                    <!--<button class="btn_catégorie">profil</button>-->
-                    <div class="dropdown-child">
-                        <a class="child" href="#posts">post/activité</a>
-                        <a class="child" href="#aide">aide</a>
-                        <a class="child" href="#parametre">parametre</a>
+        <div class="container">
+            <div id="header">
+                <div class="nav-gauche">
+                    <ahref="#"><img id="logo" src="style/assets/popLogo.png" alt="logoPOP"></a>
+                </div>
+                <div class="nav-droite">
+                    <div id="search">
+                    </div>
+                    <div class="dropdown">
+                        <img class="btn_catégorie" id="photoProfil"src="style/assets/tenjiro1.jpg" alt="image profil">
+                        <!--<button class="btn_catégorie">profil</button>-->
+                        <div class="dropdown-child">
+                            <a class="child" href="#posts">post/activité</a>
+                            <a class="child" href="#aide">aide</a>
+                            <a class="child" href="#parametre">parametre</a>
+                        </div>
                     </div>
                 </div>
             </div>

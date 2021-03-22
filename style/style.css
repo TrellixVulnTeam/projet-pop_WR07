@@ -3,23 +3,60 @@ html{
 }
 
 body {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 25px;
-    margin: 10%; 
+    margin-left: 10%;
+    margin-top: 0px;
+    margin-right: 10%;
     height: 100%;
     z-index: 1;
     font-family: 'Jost', sans-serif;
     background-color: gray;
 }
+
 header{
-    display: relative;
+    background-color: black;
+}
+
+main{
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 100%;
-    height: 20px;
+    height: 100%;
+}
+
+#post{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.profil{
+    background-color: rgb(63, 63, 63);
+    width: 100%;
+    
+}
+
+.socialNetwork{
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    
+}
+
+.oeuvres{
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    
+}
+
+.container{
+    display: flex;
+    background-color: black;
 }
 
 #header{
     display: flex;
-    
+    padding: 5%;
 }
 
 .nav-droite{
@@ -94,3 +131,4 @@ header{
         color: white;
         transition-duration: 0.5s;
     }
+

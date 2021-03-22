@@ -1,0 +1,49 @@
+.fix-sideBar{
+    z-index: 2;
+    float: left;
+    top: 0px;
+    position: fixed;
+    height: 960px;
+    width: 6%;
+    border-right: solid rgb(240, 240, 240) 2px;
+}
+
+.icons{
+    background-color: rgb(255, 255, 255);
+    height: 960px;
+}
+
+ul.icons-list{
+    top: 20px;
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    margin-left: -10%;
+}
+
+#logo_P{
+    width: 60%;
+}
+
+div.row{
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.glyphicon{
+    color: rgb(112, 112, 112);
+    font-size: 150%;
+}
+
+img{
+    border-radius: 50%;
+    margin-right: 2%;
+}
+
+
+
+
