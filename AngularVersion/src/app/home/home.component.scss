@@ -15,6 +15,15 @@ div.row{
     margin-bottom: 10%;
 }
 
+#top-account{
+    height: 250px;
+    background-color: white;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgb(194, 194, 194);
+
+}
+
 .title-1{
     margin-top: 10%;
     margin-bottom: 5%;
@@ -82,9 +91,7 @@ img{
 .profil-box{
     display: flex;
     flex-direction: row;
-    margin-bottom: 2%;
-    border-bottom: solid rgb(194, 194, 194) 2px;
-    padding-bottom: 2%;
+    padding: 1.5%;
 }
 
 .post-box{
@@ -95,7 +102,11 @@ img{
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     box-shadow: 4px 4px 4px rgb(194, 194, 194);
+}
 
+#text-post{
+    text-align: left;
+    padding: 1.5%;
 }
 
 .contact{
