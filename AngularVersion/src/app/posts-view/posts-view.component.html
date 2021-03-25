@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Posts</h2>
+            <ul class="list-group">
+                <app-posts *ngFor="let posts of posts; let i = index"
+                [postsName]= "posts.name"
+                [postsContent]= "posts.content"
+                [postsLike]="posts.loveIts"
+                [index]="i"></app-posts>
+            </ul>
+            <button class="btn btn-success" 
+                          [disabled]="!isAuth"
+                          (click)="onLike()">Tout Like</button>
+            <button class="btn btn-danger" 
+                          [disabled]="!isAuth"
+                          (click)="onDisLike()">Tout DisLike</button>
+          </div>
+    </div>
+</div>
+

@@ -2,37 +2,33 @@
     z-index: 2;
     float: left;
     top: 0px;
+    bottom: 0px;
     position: fixed;
-    height: 960px;
+    height: 100%;
     width: 6%;
     border-right: solid rgb(240, 240, 240) 2px;
 }
 
 .icons{
     background-color: rgb(255, 255, 255);
-    height: 960px;
+    height: 100%;
 }
 
 ul.icons-list{
-    top: 20px;
-    position: relative;
+    margin-top: 80%;
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 40%;
-    margin-left: -10%;
+    z-index: 3;
 }
 
 #logo_P{
-    width: 80%;
-    margin-left: -15%;
-}
-
-div.row{
-    margin-right: 0px;
-    margin-left: 0px;
-    width: 100%;
+    width: 60%;
+    position: relative;
+    top: 1.5%;
+    left: 20%;
+    z-index: 3;
 }
 
 .glyphicon{
@@ -40,11 +36,7 @@ div.row{
     font-size: 150%;
 }
 
-img{
-    border-radius: 50%;
-    margin-right: 2%;
+.icons-li{
+    margin-bottom: 200%;
+    margin-left: -15%;
 }
-
-
-
-
