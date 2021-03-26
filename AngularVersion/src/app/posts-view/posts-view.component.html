@@ -4,7 +4,7 @@
             <h2>Posts</h2>
             <ul class="list-group">
                 <app-posts *ngFor="let posts of posts; let i = index"
-                [postsName]= "posts.name"
+                [Name]= "posts.name"
                 [postsContent]= "posts.content"
                 [postsLike]="posts.loveIts"
                 [index]="i"></app-posts>

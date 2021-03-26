@@ -1,14 +1,14 @@
 <li class="list-group-item">
   <div class="posts"> 
-    <h4 [ngStyle]="{color: getLikeIts()}" >{{ postsName }}</h4> 
+    <h4 [ngStyle]="{color: getLikeIts()}" >{{ Name }}</h4> 
     <p>{{ lastUpdate | async | date: 'short' }}</p>
   </div> 
-    <p>{{ postsContent }}</p>
-    <p>{{ postsLike }}</p>
-    <button class="btn btn-sm btn-success"
+    <p id="content">{{ postsContent }}</p>
+    <p id="like">{{ postsLike }}</p>
+    <button class="btn btn-sm btn-success btn-likle"
           *ngIf="postsLike === 'dislike'"
           (click)="onSwitch()">Like</button>
-    <button class="btn btn-sm btn-danger"
+    <button class="btn btn-sm btn-danger btn-like"
           *ngIf="postsLike === 'like'"
           (click)="onSwitch()">DisLike</button>
   </li>

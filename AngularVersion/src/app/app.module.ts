@@ -13,13 +13,12 @@ import { PostsComponent } from './posts/posts.component';
 import { PostsServices } from './services/posts.services';
 import { PostsViewComponent } from './posts-view/posts-view.component';
 import { AuthComponent } from './auth/auth.component';
-import { ViewComponent } from './view/view.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
-  { path: 'home', component: ViewComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'auth', component: AuthComponent },
-  { path: '', component: AuthComponent },
+  { path: '', component: HomeComponent },
  
 ]
 
@@ -35,7 +34,6 @@ const appRoutes: Routes = [
     PostsComponent,
     PostsViewComponent,
     AuthComponent,
-    ViewComponent
   ],
   imports: [
     BrowserModule,

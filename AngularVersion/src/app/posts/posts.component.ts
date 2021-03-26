@@ -8,7 +8,7 @@ import { PostsServices } from '../services/posts.services';
 })
 export class PostsComponent implements OnInit {
 
-  @Input() postsName: string;
+  @Input() Name: string;
   @Input() postsContent: string;
   @Input() postsLike: string;
   @Input() index: number;
