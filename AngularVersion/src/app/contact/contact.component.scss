@@ -1,0 +1,29 @@
+.name{
+    font-style: none;
+}
+
+.story{
+    border: solid 1px red;
+    padding: 2px;
+    margin-right: 5%;
+    width: 20%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-bottom: solid 2px rgb(231, 231, 231);
+}
+
+img{
+    border-radius: 50%;
+    margin-right: 2%;
+}
+
+.all-contact{
+    max-height: 20%;
+}
+
