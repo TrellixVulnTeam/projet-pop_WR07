@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignUpComponent implements OnInit {
 
+  Title: string = 'Join your friends on POP !';
+  
   constructor() { }
 
   ngOnInit(): void {

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignInComponent implements OnInit {
 
+  Title: string = "You can now log in."
+  
   constructor() { }
 
   ngOnInit(): void {
