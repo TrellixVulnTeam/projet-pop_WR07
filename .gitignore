@@ -169,6 +169,7 @@ testem.log
 Thumbs.db  
 .DS_Store
 AngularVersion/.DS_Store
+AngularVersion/node_modules
 AngularVersion/node_modules/.cli-ngcc/cf2c032dfe5cbe261a5bec76ffba09c220198b558dd74abc83c3d947d9e2de83.lock
 AngularVersion/node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js.map
 AngularVersion/node_modules/@angular/forms/forms.d.ts.__ivy_ngcc_bak
